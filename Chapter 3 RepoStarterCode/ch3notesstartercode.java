@@ -39,13 +39,27 @@ public static void main (String [] args)
 
       System.out.print ("Enter a number ");
       num = Keyboard.nextInt();
-
-       System.out.print ("Enter a  second number ");
-       num1 = Keyboard.nextInt();
-
-       System.out.print ("Enter a  third number ");
-       num2 = Keyboard.nextInt();
-
+    /*  
+      
+      if(num < 1000) //true condition
+      {
+         System.out.print(true);
+         
+      }
+      else //false condition
+          System.out.print(false); //one statement will be in the else
+     
+          
+          //order is very important, in ascending order
+      if(num < 1000) 
+         System.out.print("Your score is average");
+      else if (num < 2000) 
+          System.out.print("Your score is very good"); 
+      else if (num < 3000)
+          System.out.print("Your score is exellent");
+      else if (num < 500)
+          System.out.print("Your score is bad");
+      
       System.out.println ();
 /*
 
