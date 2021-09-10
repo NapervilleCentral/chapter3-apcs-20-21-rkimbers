@@ -18,7 +18,7 @@ public static void main (String [] args)
 {
 
         Scanner Keyboard = new Scanner(System.in);
-/**/
+/*
     String word1 = "apple";
     String word2 = "cat";
     String word3 = "dog";
@@ -64,19 +64,19 @@ public static void main (String [] args)
 /*
 
        boolean a = true, b = false, c = false,d;
-        //System.out.println(a  );
-      // c =(a = true) || (b = true);
+        System.out.println(a  );
+      //c =(a = true) || (b = true);   //short circut on true
       // System.out.println(a + "-" + b + "-" + c);
 
 
-    //   c = (a = false) || (b = true);
-    //   System.out.println(a + "-" + b+ "-" + c);
+      //c = (a = false) || (b = true);
+      //System.out.println(a + "-" + b+ "-" + c);
 
-//     c =(a = false) && (b = true);
- //    System.out.print(a + "-" + b+ "-" + c);
+      // c =(a = false) && (b = true);   //short circuts on false
+      // System.out.print(a + "-" + b+ "-" + c);
 //
-//     c = (a = true) && (b = false);
-//     System.out.print(a + "-" + b + "-" + c);
+ //    c = (a = true) && (b = false);
+ //    System.out.print(a + "-" + b + "-" + c);
 
 //     d =!(a = true) || (b = true) && (c = true);
 //     System.out.print(a + "-" + b + "-" + c+ "-" + d);
