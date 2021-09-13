@@ -14,15 +14,19 @@ public class NumOrder
       b = in.nextInt();
       c = in.nextInt();
       
-      if (a>b>c){
-          num1 = a;
-          num2 = b;
-          num3 = c;
+      if ((a<b)&&(b<c)){
           
-          System.out.print(a,b,c);
+          System.out.print("Decreasing");
           
         }
-      
+      else if ((a>b)&&(b<c)){
+          
+          System.out.print("Increasing");
+          
+        }
+      else{
+          System.out.print("Neither");
+        }
       
 
 
