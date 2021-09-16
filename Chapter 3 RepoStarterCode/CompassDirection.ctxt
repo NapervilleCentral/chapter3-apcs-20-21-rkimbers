@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CompassDirection
+comment0.text=\r\n\ \ \ Prints\ the\ compas\ direction\ N,NE,E,SE,S,SW,W,NW\r\n\ \ \ Given\ an\ angle\ as\ input.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
