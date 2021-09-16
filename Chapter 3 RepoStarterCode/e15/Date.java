@@ -1,3 +1,5 @@
+package e15;
+
 /**
    This class calculates the season for a given month and day.
 */
