@@ -1,3 +1,5 @@
+package e21;
+
 /**
    This class finds the smallest, middle, and largest of 
    three strings.
