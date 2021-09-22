@@ -34,10 +34,14 @@ public class TriangleProgram
                     }   
                     else{    
                     System.out.print("Try again - invalid");
-        
-                }
-            }  
-            }   
+               }
+            }
+            else{
+                    System.out.print("Try again - invalid");
+               }
+            
+        }
+  
         else if (choice == 2){
             
             System.out.print("Enter in the angles of the triangle");
