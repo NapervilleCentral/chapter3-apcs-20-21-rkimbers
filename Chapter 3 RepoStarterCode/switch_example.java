@@ -27,7 +27,7 @@ public class switch_example
             //switch will cascade through
 
             switch (choice){
-            
+                case 'F': 
                 case 'f':
                     System.out.print("0.99");
                     break;
@@ -37,6 +37,11 @@ public class switch_example
                 case 's':
                     System.out.print("0.79");
                     break;
+                
+                // default replaces else statement
+                
+                default:
+                    System.out.print("Incorrect Data");
             
             }
     }//endo of main
