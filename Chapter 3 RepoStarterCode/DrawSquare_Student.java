@@ -45,7 +45,9 @@ public static void main(String[] args)
     pen.move(130);
 
     pen.home();
-
+    pen.turn(90);
+    pen.move(200);
+    pen.move(-300);
     
 
     
