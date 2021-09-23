@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Pen
+comment1.params=
+comment1.target=void\ down()
+comment10.params=degrees
+comment10.target=void\ turn(double)
+comment11.params=
+comment11.target=void\ up()
+comment2.params=text
+comment2.target=void\ drawString(java.lang.String)
+comment3.params=
+comment3.target=void\ home()
+comment4.params=distance
+comment4.target=void\ move(double)
+comment5.params=x\ y
+comment5.target=void\ move(double,\ double)
+comment6.params=color
+comment6.target=void\ setColor(java.awt.Color)
+comment7.params=direction
+comment7.target=void\ setDirection(double)
+comment8.params=width
+comment8.target=void\ setWidth(int)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=12
