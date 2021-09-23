@@ -4,6 +4,7 @@
  *
  * Ryan Kimberley
  * APCS Per 5 Triangle Program
+ * 9/20
  */
 
 //importing scanner
