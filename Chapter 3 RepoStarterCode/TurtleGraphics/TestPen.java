@@ -1,3 +1,5 @@
+package TurtleGraphics;
+
 import TurtleGraphics.*;
 import TerminalIO.KeyboardReader;
 import java.util.Random;
