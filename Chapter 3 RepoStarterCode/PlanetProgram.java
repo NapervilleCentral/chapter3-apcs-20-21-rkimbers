@@ -6,19 +6,21 @@
  *APCS Per 5
  */
 import java.util.Scanner;
-
+import java.text.DecimalFormat;
 public class PlanetProgram
 {
     public static void main(String[]args){
+            //initializing variable    
             char choice;
             double weight;
-            double nw;
+            double nw = 0;
             
+            //menu for selecting planet
             Scanner Keyboard = new Scanner(System.in);
             System.out.print("What planet do you want to weigh yourself on? ");
             System.out.print("m) Mercury\n");
             System.out.print("v) Venus\n");
-            System.out.print("e) Earth");
+            System.out.print("e) Earth\n");
             System.out.print("M) Mars\n");
             System.out.print("j) Jupiter\n");
             System.out.print("s) Saturn\n");
@@ -31,8 +33,10 @@ public class PlanetProgram
             System.out.print("Enter in your weight: ");
             weight = in.nextDouble();
             
+            //formatting output
+            DecimalFormat fmt = new DecimalFormat("0.##");
             
-            
+            //sorting through char input to determine weight
              switch (choice){
                 case 'm':
                     nw = weight*0.38;
@@ -58,18 +62,16 @@ public class PlanetProgram
                 case 'n':
                     nw = weight*1.19;
                     break;
+                    //default incase invalid
                 default:
                     System.out.print("Invalid input");
                     
-                
-                
-                
-                
-                
-                
-             }
-        
-             System.out.print("Your weight is "+nw+"lbs");
+                    
+           
+                    
+            }
+           System.out.print("Your weight is "+fmt.format(nw)+"lbs");
+             
         
         
     }
