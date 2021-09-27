@@ -17,7 +17,7 @@ public class PlanetProgram
             
             //menu for selecting planet
             Scanner Keyboard = new Scanner(System.in);
-            System.out.print("What planet do you want to weigh yourself on? ");
+            System.out.println("What planet do you want to weigh yourself on? ");
             System.out.print("m) Mercury\n");
             System.out.print("v) Venus\n");
             System.out.print("e) Earth\n");
@@ -64,13 +64,14 @@ public class PlanetProgram
                     break;
                     //default incase invalid
                 default:
-                    System.out.print("Invalid input");
+                    System.out.print("Invalid input \n");
                     
                     
            
                     
             }
-           System.out.print("Your weight is "+fmt.format(nw)+"lbs");
+            //printing out formatted weight
+            System.out.print("Your weight is "+fmt.format(nw)+"lbs");
              
         
         
