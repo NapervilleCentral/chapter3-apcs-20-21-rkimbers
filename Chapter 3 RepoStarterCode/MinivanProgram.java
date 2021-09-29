@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class MinivanProgram
 {
     public static void main(String[]args){
-        boolean DL, DR, CL, MU, IL, IR, OL, OR;
+        int DL, DR, CL, MU, IL, IR, OL, OR;
         String gear;
         String p = new String("P");
         
@@ -34,7 +34,7 @@ public class MinivanProgram
               System.out.println("Both doors are opened");
             }
             else{
-              System.out.printlm("Left door opened");
+              System.out.println("Left door opened");
             }
           }
           else if (IR = 0 || OR = 0){
