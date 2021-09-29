@@ -1,4 +1,3 @@
-
 /**
  * 
  * Tax Program
@@ -23,6 +22,8 @@ public class TaxProgram
         Scanner in = new Scanner(System.in);
         System.out.println("Enter in your income: $");
         income = in.nextDouble();
+
+        DecimalFormat fmt = new DecimalFormat("0.00");
         
         if (income < 50000){
             tax = income*0.01;
@@ -60,7 +61,7 @@ public class TaxProgram
 
         
         
-        System.out.print("You're taxed $"+tax);
+        System.out.print("You're taxed $"+fmt.format(tax));
         
         
         
