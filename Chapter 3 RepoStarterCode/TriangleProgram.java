@@ -25,7 +25,7 @@ public class TriangleProgram
             s1 = in.nextInt();
             s2 = in.nextInt();
             s3 = in.nextInt();
-            if ((s1>0 && s2>0 && s3>0) && ((s1 + s2 >= s3)||(s2 + s3 >= s1)||(s3 + s1 >= s2))){
+            if ((s1>0 && s2>0 && s3>0) && (s1 + s2 >= s3)){
                 if (s1 == s2 && s2 == s3){
                         System.out.print("Equilateral triangle");
                     }   //ifs to check criteria to determine which triangle to print
