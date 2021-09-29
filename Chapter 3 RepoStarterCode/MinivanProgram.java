@@ -21,27 +21,36 @@ public class MinivanProgram
         IR = in.nextInt();
         OL = in.nextInt();
         OR = in.nextInt();
+        in.nextLine();
         gear = in.nextLine();
       
 
-      if (gear.equals(p) && MU = 1){
-        if (CL = 1){
+      if (gear.equals(p) && MU == 1){
+        if (CL == 1){
+          if (OR == 0 || OL == 0){
+              System.out.print("Both doors opened");
+            }
+            
+          else{  
           System.out.println("Both doors stay closed");
         }
-        else if (CL = 0){
-          if (IL = 0 || OL = 0){
-            if (IR = 0 || OR = 0){
+        }
+        else if (CL == 0){
+          if (IL == 1 || OL == 1){
+            if (IR == 1 || OR == 1){
               System.out.println("Both doors are opened");
             }
             else{
               System.out.println("Left door opened");
             }
           }
-          else if (IR = 0 || OR = 0){
+          else if (IR == 1 || OR == 1){
             System.out.println("Right door opened");
           }
         }
-
+        else{
+            System.out.print("Both doors stay closed");
+        }
       }
 
 
