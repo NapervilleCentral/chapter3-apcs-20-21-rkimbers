@@ -1,7 +1,8 @@
 /**
- * Write a description of class MinivanProgram here.
+ * Minivan Program
  *
  *Ryan Kimberley
+ *APCS Per 5 
  */
 import java.util.Scanner;
 public class MinivanProgram
