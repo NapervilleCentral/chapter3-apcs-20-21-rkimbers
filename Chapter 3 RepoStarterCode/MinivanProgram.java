@@ -30,7 +30,7 @@ public class MinivanProgram
           if(OR == 1 && OL == 1){
               System.out.print("Both doors opened");
             }
-          else if ((OR == 0 || OL == 0) && (IL == 0 || IR == 0) && IL == 0){
+          else if ((OR == 0 || OL == 0) && (IL == 0 || IR == 0)){
               System.out.print("Both doors opened");
             }
           else if(IL == 1 && IR == 0){
