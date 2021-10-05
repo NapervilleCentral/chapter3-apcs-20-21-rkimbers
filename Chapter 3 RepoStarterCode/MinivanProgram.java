@@ -38,9 +38,9 @@ public class MinivanProgram
               System.out.print("Left doors opened");
             }
            }
-    }
+    
         else if (CL == 0){
-          if (IL == 0 || OL == 0 || DL == 1){
+          if (IL == 1 || OL == 1 || DL == 1){
             if (IR == 1 || OR == 1 || DR == 1){
               System.out.println("Both doors are opened");
             }
@@ -56,8 +56,11 @@ public class MinivanProgram
             System.out.print("Both doors stay closed");
         }
     }
+    }
     else{
        System.out.print("Both doors closed"); 
         }
+
+
 }
 }
