@@ -1,3 +1,5 @@
+package Past;
+
 import java.util.Scanner;
 
 public class NumOrderInt
