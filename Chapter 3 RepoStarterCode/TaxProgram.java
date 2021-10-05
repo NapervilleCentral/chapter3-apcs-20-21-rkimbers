@@ -10,6 +10,8 @@ import java.text.DecimalFormat;
 public class TaxProgram
 {
     public static void main(String[]args){
+        
+        //initializing all variables, using doubles
         double income;
         double tax = 0;
         double total = 0;
@@ -22,9 +24,11 @@ public class TaxProgram
         Scanner in = new Scanner(System.in);
         System.out.println("Enter in your income: $");
         income = in.nextDouble();
-
+        
+        //making sure to format to 2 decimal places! $0.00
         DecimalFormat fmt = new DecimalFormat("0.00");
         
+        //if statements to sort through possible input
         if (income < 50000){
             tax = income*0.01;
         }
@@ -57,10 +61,13 @@ public class TaxProgram
             d = 250000;
             e = income - 500000;
             tax = (50000*0.01) + (a*0.02) + (b*0.03) + (c*0.04) + (d*0.05) + (e*0.06);
+        
         }
-
+        else{   //else is put here instead of above - what if user inputs a negative income?
+            System.out.print("Invalid - try again");
+        }
         
-        
+        //printing outside if statements
         System.out.print("You're taxed $"+fmt.format(tax));
         
         
