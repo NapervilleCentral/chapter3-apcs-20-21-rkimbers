@@ -1,3 +1,5 @@
+package e02;
+
 public class SumEvenNumbers
 {
    public static void main(String[] args)

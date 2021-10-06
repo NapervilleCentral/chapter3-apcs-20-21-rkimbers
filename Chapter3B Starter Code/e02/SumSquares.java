@@ -1,3 +1,5 @@
+package e02;
+
 public class SumSquares
 {
    public static void main(String[] args)
