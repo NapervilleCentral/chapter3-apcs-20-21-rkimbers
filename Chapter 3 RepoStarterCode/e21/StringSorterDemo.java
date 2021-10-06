@@ -1,3 +1,5 @@
+package e21;
+
 import java.util.Scanner;
 
 /**
