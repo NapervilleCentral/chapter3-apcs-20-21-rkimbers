@@ -17,7 +17,7 @@ public class PowerOf2
        total += Math.pow(num,i);
        
    }
-   System.out.print()
+   System.out.print(total);
 }
 
 }
