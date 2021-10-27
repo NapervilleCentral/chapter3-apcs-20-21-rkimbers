@@ -22,8 +22,9 @@ public class Palindrome
         int beg = 0; //initializing "beginning" to zero and end to length of the input
         int end = p.length()-1;
         boolean flag = true; //flag placed out of loop to make sure output is only displayed 1x
+        boolean pal = true;
         
-        while (beg < end){ //while loop that runs as long as there are more chars to check
+        while (beg < end && pal != false){ //while loop that runs as long as there are more chars to check && pal isn't false
             
             char test = (char) p.charAt(beg); //first char
             char test1 = (char) p.charAt(end); //last char
@@ -33,16 +34,14 @@ public class Palindrome
             
             if (test != test1){  //testing if any char isnt equal to the counterpart
                 System.out.println("Not a palindrome!"); 
-                break; //breaks loop if the if statement executes
+                pal = false; //sets pal flag to false so loops do not execute
             }
             
-            while (flag != false){ //while loop runs if loop hasn't been broken
+            while (flag != false && pal != false){ //while loop runs if loop hasn't been ended
                 System.out.println("Palindrome!");
                 flag = false; //setting boolean to false so loop can only execute once
             }
             }
-    }
- 
-
+        }
 }
 
