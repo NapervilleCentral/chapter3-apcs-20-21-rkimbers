@@ -21,13 +21,12 @@ public class Palindrome
         
         int beg = 0;
         int end = p.length()-1;
-        char test = 'a';
-        char test1 = 'a';
+        boolean flag = true;
         
         while (beg < end){
             
-            test = (char) p.charAt(beg);
-            test1 = (char) p.charAt(end);
+            char test = (char) p.charAt(beg);
+            char test1 = (char) p.charAt(end);
             
             beg++;
             end--;
@@ -36,10 +35,14 @@ public class Palindrome
                 System.out.println("Not a palindrome!");
                 break;
             }
+            
+            while (flag != false){
+                System.out.println("Palindrome!");
+                flag = false;
+            }
+            }
     }
-    if (test == test1){
-        System.out.println("Palindrome!");
-    }
+ 
 
 }
-}
+
