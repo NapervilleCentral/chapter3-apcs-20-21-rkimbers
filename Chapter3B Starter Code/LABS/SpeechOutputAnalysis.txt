@@ -1,0 +1,59 @@
+--------------Trial 1--------------
+
+
+Enter in desired file path:
+LABS/speeches/gwbush.txt
+Enter in word to find: 
+America
+File name: gwbush.txt
+Total words : 1586                             ##Pretty long speech
+Total times the word 'America' was said: 3 
+
+
+--------------Trial 2--------------
+
+
+Enter in desired file path: 
+LABS/speeches/jfk.txt
+Enter in word to find: 
+America
+File name: jfk.txt
+Total words : 1345
+Total times the word 'America' was said: 2
+
+
+--------------Trial 3--------------
+
+
+Enter in desired file path: 
+LABS/speeches/tedroosevelt.txt
+Enter in word to find: 
+America
+File name: tedroosevelt.txt
+Total words : 990
+Total times the word 'America' was said: 0    ##Suprised the most patriotic President ever did not say 'America'
+
+
+--------------Trial 4--------------
+
+
+Enter in desired file path: 
+LABS/speeches/R Nixon Decision to resign.txt
+Enter in word to find: 
+Resign
+File name: R Nixon Decision to resign.txt
+Total words : 547                               ##Very short speech
+Total times the word 'Resign' was said: 2     	##Only said 'Resign' twice
+
+
+--------------Trial 5--------------
+
+
+Enter in desired file path: 
+LABS/speeches/obamatakebackamerica.txt
+Enter in word to find: 
+America
+File name: obamatakebackamerica.txt
+Total words : 3148                             ##Very long speech
+Total times the word 'America' was said: 9     ##Only said 'America' 9x in a speech titled America, with 3148 words
+
