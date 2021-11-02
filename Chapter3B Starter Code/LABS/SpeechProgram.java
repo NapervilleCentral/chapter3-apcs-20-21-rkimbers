@@ -17,7 +17,7 @@ public class SpeechProgram
         int wordCount = 0, pickCount = 0;
         String word, speechName, userPick, filePath;
         
-        System.out.println("Enter in desired file path");
+        System.out.println("Enter in desired file path: ");
         Scanner in = new Scanner(System.in);
         filePath = in.nextLine();
         
