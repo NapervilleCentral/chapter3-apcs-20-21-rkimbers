@@ -2,7 +2,6 @@ package LABS;
 
 import java.util.*;
 import TurtleGraphics.StandardPen;
-
 /*
  * Ryan Kimberley
  * APCS Per 5
