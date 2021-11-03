@@ -2,8 +2,11 @@ package LABS;
 
 import java.util.Scanner;
 
-
-
+/*
+ * Ryan Kimberley
+ * APCS Per 5
+ * String Mystery program
+ */
 public class StringMystery {
 
     public static void main(String[]args){
@@ -13,21 +16,18 @@ public class StringMystery {
     String inputMystery = in.nextLine();
     int currentDigit = 0;
     int lastDigit = 0;
-
-    lastDigit = inputMystery.charAt(inputMystery.length()-1);
-    //System.out.println(inputMystery.length() -1 );
+    int mysteryLength = 0;
+    
+    mysteryLength = inputMystery.length() - 1;
+    lastDigit = inputMystery.charAt(mysteryLength);
     System.out.println(lastDigit);
 
 
-    for (int i = 0; i < inputMystery.length() - 1; i++) {
-        currentDigit = inputMystery.charAt(i);
-        System.out.print(" "+currentDigit);
+  //  for (int i = 0; i < mysteryLength; i++) {
+ //       currentDigit = inputMystery.charAt(i);
+ //       System.out.print(" "+currentDigit);
 
 
-
-
-
-
-    }
+//    }
     }
 }
