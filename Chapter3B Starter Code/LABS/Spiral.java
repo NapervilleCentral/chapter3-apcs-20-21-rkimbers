@@ -4,10 +4,9 @@ import java.util.*;
 import TurtleGraphics.StandardPen;
 
 /**
- * Write a description of class Spiral here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Ryan Kimberley
+ * APCS Per 5
+ * Spiral program- draw a spiral
  */
 public class Spiral
 {
