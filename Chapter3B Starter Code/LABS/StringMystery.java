@@ -8,8 +8,6 @@ import java.io.*;
  * APCS Per 5
  * String Mystery program
  * 
- * 1341
- * 2036
  */
 public class StringMystery {
 
@@ -45,10 +43,12 @@ public class StringMystery {
         
         for (int i = 0; i < mysteryLength; i++){
             
-            currentDigit = Integer.parseInt(stringMystery.substring(i, i+1));
+            currentDigit = Integer.parseInt(stringMystery.substring(i, i+1)); //gathering first number in string 
+            secondDigit = Integer.parseInt(stringMystery.substring(((stringMystery.length()-1)/2)+i,(((stringMystery.length()-1)/2)+i)+1)); 
             
             if (currentDigit == secondDigit) {
-                count += currentDigit - '0';
+                count += currentDigit;
+                
             }
             
         }
